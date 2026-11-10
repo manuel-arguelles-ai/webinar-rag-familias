@@ -6,6 +6,10 @@ Este repo reúne cinco notebooks de Google Colab que lo demuestran con medicione
 > Los datos son sintéticos y pequeños (42 documentos, 33 consultas de la empresa ficticia «Andina Retail»).
 > Los resultados ilustran un criterio de decisión; **no son una medición de producción** ni generalizan a otros corpus. Mide con tus propias preguntas.
 
+## Las diapositivas
+
+[`slides/webinar-rag.html`](slides/webinar-rag.html) es el deck del webinar (32 diapositivas, un solo archivo HTML que funciona sin internet). Descárgalo y ábrelo en tu navegador: navega con las flechas, `G` muestra la vista general y `D` cambia a modo oscuro.
+
 ## Los notebooks
 
 | # | Notebook | Familia | Pregunta que responde | Abrir |
@@ -199,6 +203,8 @@ En ambos casos todas las celdas corrieron sin error y pasaron sus `assert`, con 
 .
 ├── README.md
 ├── requirements-validados.txt
+├── slides/
+│   └── webinar-rag.html
 └── notebooks/
     ├── 01_vectorial_keyword_hibrido.ipynb
     ├── 02_vectorless_arbol_de_documento.ipynb
